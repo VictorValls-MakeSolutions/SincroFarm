@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\GitHub\\SincroFarm\\Sincrobit\\Plantilla\\SincroBit.csproj": {}
+    "E:\\GitHub\\SincroFarm\\SincroBit\\Plantilla\\SincroBit.csproj": {}
   },
   "projects": {
-    "E:\\GitHub\\SincroFarm\\Sincrobit\\Plantilla\\SincroBit.csproj": {
+    "E:\\GitHub\\SincroFarm\\SincroBit\\Plantilla\\SincroBit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\GitHub\\SincroFarm\\Sincrobit\\Plantilla\\SincroBit.csproj",
+        "projectUniqueName": "E:\\GitHub\\SincroFarm\\SincroBit\\Plantilla\\SincroBit.csproj",
         "projectName": "SincroBit",
-        "projectPath": "E:\\GitHub\\SincroFarm\\Sincrobit\\Plantilla\\SincroBit.csproj",
+        "projectPath": "E:\\GitHub\\SincroFarm\\SincroBit\\Plantilla\\SincroBit.csproj",
         "packagesPath": "C:\\Users\\vvalls\\.nuget\\packages\\",
-        "outputPath": "E:\\GitHub\\SincroFarm\\Sincrobit\\Plantilla\\obj\\",
+        "outputPath": "E:\\GitHub\\SincroFarm\\SincroBit\\Plantilla\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
