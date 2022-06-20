@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31025.194
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plantilla", "Plantilla\Plantilla.csproj", "{0A264BDA-ADD8-4D9F-80B6-D15F4DE3E507}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SincroBit", "Plantilla\SincroBit.csproj", "{0A264BDA-ADD8-4D9F-80B6-D15F4DE3E507}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

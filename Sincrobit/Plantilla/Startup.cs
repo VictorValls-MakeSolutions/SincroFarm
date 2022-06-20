@@ -14,9 +14,9 @@ using Microsoft.AspNetCore.Authentication.AzureAD.UI;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Plantilla.Data;
+using SincroBit.Data;
 
-namespace Plantilla
+namespace SincroBit
 {
     public class Startup
     {
@@ -25,7 +25,7 @@ namespace Plantilla
             Configuration = configuration;
         }
 
-        public static string GetConectionString() => Configuration.GetConnectionString("PlantillaContext");
+        public static string GetConectionString() => Configuration.GetConnectionString("SincroBitContext");
 
         public static IConfiguration Configuration { get; set; }
 
@@ -73,8 +73,8 @@ namespace Plantilla
 
 
 
-            services.AddDbContext<PlantillaContext>(options =>
-                   options.UseSqlServer(Configuration.GetConnectionString("PlantillaContext"), x => x.MigrationsHistoryTable("__EFMigrationsHistory", "VisitaECI")));
+            services.AddDbContext<SincroBitContext>(options =>
+                   options.UseSqlServer(Configuration.GetConnectionString("SincroBitContext"), x => x.MigrationsHistoryTable("__EFMigrationsHistory", "VisitaECI")));
 
             
         }
@@ -113,7 +113,7 @@ namespace Plantilla
 
 
             using var serviceScope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope();
-            var context = serviceScope.ServiceProvider.GetService<PlantillaContext>();
+            var context = serviceScope.ServiceProvider.GetService<SincroBitContext>();
             context.Database.Migrate();
         }
     }

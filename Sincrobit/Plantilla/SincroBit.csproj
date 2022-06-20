@@ -1,10 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <AssemblyName>Plantilla</AssemblyName>
-    <RootNamespace>Plantilla</RootNamespace>
+    <AssemblyName>SincroBit</AssemblyName>
+    <RootNamespace>SincroBit</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Models\BAL\**" />
+    <Content Remove="Models\BAL\**" />
+    <EmbeddedResource Remove="Models\BAL\**" />
+    <None Remove="Models\BAL\**" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Bootstrap.v3.Datetimepicker" Version="4.17.49" />
@@ -23,7 +30,7 @@
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Migrations\" />
-    <Folder Include="Models\BAL\" />
+    <Folder Include="Models\" />
   </ItemGroup>
 
 </Project>

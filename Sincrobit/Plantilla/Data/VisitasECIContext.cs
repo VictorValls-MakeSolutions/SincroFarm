@@ -4,13 +4,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Plantilla.Data
+namespace SincroBit.Data
 {
-    public class PlantillaContext :DbContext
+    public class SincroBitContext :DbContext
     {
 
 
-        public PlantillaContext(DbContextOptions<PlantillaContext> options)
+        public SincroBitContext(DbContextOptions<SincroBitContext> options)
             : base(options)
         {
         }

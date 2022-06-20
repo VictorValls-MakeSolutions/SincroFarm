@@ -4,17 +4,17 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Plantilla.Data;
+using SincroBit.Data;
 using VisitasECI.Clases;
 
-namespace Plantilla.Pages
+namespace SincroBit.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly PlantillaContext _eciContext;
+        private readonly SincroBitContext _eciContext;
         private readonly FuncionesComunes fc;
 
-        public IndexModel(PlantillaContext eciContext)
+        public IndexModel(SincroBitContext eciContext)
         {
             //_balContext = new BalContext();
             _eciContext = eciContext;

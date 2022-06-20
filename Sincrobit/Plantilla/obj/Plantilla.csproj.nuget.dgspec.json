@@ -1,23 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vvalls\\Desktop\\Plantilla\\Plantilla\\Plantilla.csproj": {}
+    "E:\\GitHub\\SincroFarm\\Sincrobit\\Plantilla\\Plantilla.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vvalls\\Desktop\\Plantilla\\Plantilla\\Plantilla.csproj": {
+    "E:\\GitHub\\SincroFarm\\Sincrobit\\Plantilla\\Plantilla.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vvalls\\Desktop\\Plantilla\\Plantilla\\Plantilla.csproj",
-        "projectName": "Plantilla",
-        "projectPath": "C:\\Users\\vvalls\\Desktop\\Plantilla\\Plantilla\\Plantilla.csproj",
+        "projectUniqueName": "E:\\GitHub\\SincroFarm\\Sincrobit\\Plantilla\\Plantilla.csproj",
+        "projectName": "SincroBit",
+        "projectPath": "E:\\GitHub\\SincroFarm\\Sincrobit\\Plantilla\\Plantilla.csproj",
         "packagesPath": "C:\\Users\\vvalls\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vvalls\\Desktop\\Plantilla\\Plantilla\\obj\\",
+        "outputPath": "E:\\GitHub\\SincroFarm\\Sincrobit\\Plantilla\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\vvalls\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,6 +27,7 @@
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -97,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

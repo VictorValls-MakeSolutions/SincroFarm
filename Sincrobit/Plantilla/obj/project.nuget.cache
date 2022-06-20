@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3jWumpW5A2CDcE3YcUL8odjipbtiG8fy/TSNfDA4H6aE+pXeDCirQuEPZRegtR0hpGDzZPgiocvtSFWgbkObRw==",
+  "dgSpecHash": "44FvgMncaxDpFBg2VP7mgRW5DuDsFoeDThEaKEV8YvDgvrk+cnzDIouy1oe98lpFI8nvIl4ZiGPs03svN9m9xg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vvalls\\Desktop\\Plantilla\\Plantilla\\Plantilla.csproj",
+  "projectFilePath": "E:\\GitHub\\SincroFarm\\Sincrobit\\Plantilla\\SincroBit.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vvalls\\.nuget\\packages\\bootstrap\\3.4.1\\bootstrap.3.4.1.nupkg.sha512",
     "C:\\Users\\vvalls\\.nuget\\packages\\bootstrap.less\\3.4.1\\bootstrap.less.3.4.1.nupkg.sha512",
